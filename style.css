@@ -122,3 +122,22 @@ input[type = "range"]::-moz-range-thumb{
     border-radius: 50%;
     pointer-events: auto;
 }
+
+@media screen and (max-width: 555px) {
+    :root{
+        --bc: #fcb418;
+    }  
+
+    main{
+        min-width: 300px;
+        margin: 5px 8px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
